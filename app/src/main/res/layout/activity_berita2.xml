@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita2">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="372dp"
+        android:layout_height="211dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/rabi" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="342dp"
+        android:layout_height="82dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="KOMPAS.com - Pasangan penyanyi Gummy dan aktor Jo Jung Suk ternyata sudah resmi menjadi suami-istri. Menurut label Gummy, C-JeS Entertainment, Senin (8/10/2010), selebritas asal Korea Selatan itu mengucapkan janji setia di hadapan keluarga beberapa waktu lalu. Mereka berjanji akan saling menghormati dan mencintai sepanjang hidup dan terus bersama dalam suka dan duka, kata agensi tersebut.
+
+    "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="68dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="C-JeS Entertainment mengucapkan terima kasih kepada para fans yang mengucapkan selamat atas kebahagiaan pasangan tersebut. Mereka akan memberikan yang terbaik di bidang masing-masing kepada para fans, lanjut C-JeS Entertainment. Pihaknya berharap para fans memberi restu dan dukungan kepada pasangan tersebut dalam menjalani kehidupan bersama.
+
+    "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>

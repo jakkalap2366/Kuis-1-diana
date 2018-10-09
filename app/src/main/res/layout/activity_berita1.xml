@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="294dp"
+        android:layout_height="189dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.031"
+        app:srcCompat="@drawable/bts" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="347dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Boyband BTS akan mendapat penghargaan dari pemerintah Korea Selatan, yakni Order of Cultural Merit. Pada Agustus lalu, nama BTS diumumkan sebagai salah satu dari 12 nomine penerima penghargaan tersebut untuk 2018. Sidang kabinet memutuskan bahwa penerima Order of Cultural Merit 2018 adalah BTS. "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.523"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="358dp"
+        android:layout_height="227dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="BTS telah memperluas penyebaran hallyu (gelombang Korea) dan berkontribusi pada perkembangan budaya dan kesenian pop, lanjut Kim. Perdana Menteri Korea Selatan Lee Nak Yeon menambahkan anak-anak muda dari berbagai penjuru dunia menyanyikan lagu-lagu BTS. Banyak anak muda negara-negara asing menyanyikan lirik lagu BTS yang berbahasa Korea. Dengan begitu, BTS tidak hanya menyebarkan hallyu, tetapi juga berkontribusi pada penyebaran bahasa Korea, kata Lee Nak Yeon. BTS merupakan grup idola pertama yang mendapat Order of Cultural Merit. Para member, yakni RM, Jin, Suga, J-Hope, Jimin, V, dan Jungkook, juga menjadi warga termuda yang menerima penghargaan tersebut."
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    (gelombang Korea) dan berkontribusi pada perkembangan budaya dan kesenian pop," lanjut Kim. Perdana Menteri Korea Selatan Lee Nak Yeon menambahkan anak-anak muda dari berbagai penjuru dunia menyanyikan lagu-lagu BTS. "Banyak anak muda negara-negara asing menyanyikan lirik lagu BTS yang berbahasa Korea. Dengan begitu, BTS tidak hanya menyebarkan hallyu, tetapi juga berkontribusi pada penyebaran bahasa Korea," kata Lee Nak Yeon. BTS merupakan grup idola pertama yang mendapat Order of Cultural Merit. Para member, yakni RM, Jin, Suga, J-Hope, Jimin, V, dan Jungkook, juga menjadi warga termuda yang menerima penghargaan tersebut." />
+
+    (gelombang Korea) dan berkontribusi pada perkembangan budaya dan kesenian pop," lanjut Kim. Perdana Menteri Korea Selatan Lee Nak Yeon menambahkan anak-anak muda dari berbagai penjuru dunia menyanyikan lagu-lagu BTS. "Banyak anak muda negara-negara asing menyanyikan lirik lagu BTS yang berbahasa Korea. Dengan begitu, BTS tidak hanya menyebarkan hallyu, tetapi juga berkontribusi pada penyebaran bahasa Korea," kata Lee Nak Yeon. BTS merupakan grup idola pertama yang mendapat Order of Cultural Merit. Para member, yakni RM, Jin, Suga, J-Hope, Jimin, V, dan Jungkook, juga menjadi warga termuda yang menerima penghargaan tersebut."
+        tools:layout_editor_absoluteX="56dp"
+        tools:layout_editor_absoluteY="546dp" />," kata Kim Ui Gyeom, juru bicara Kantor Kepresidenan Korea Selatan, Senin (8/10/2018)."
+        tools:layout_editor_absoluteX="94dp"
+        tools:layout_editor_absoluteY="250dp" />
+</android.support.constraint.ConstraintLayout>
